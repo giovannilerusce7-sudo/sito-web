@@ -33,6 +33,7 @@ img {
   justify-content: center;
   height: auto;
 }
+
 .footer-container {
   display: flex; /* Allinea gli elementi in orizzontale */
   align-items: center; /* Allinea verticalmente al centro */
