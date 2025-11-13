@@ -19,15 +19,17 @@
   border: 0px;
 }
 img {
-  max-width: 99%;
-  height: 99%;
+  max-width: 100%;
+  height: 100%;
 }
 
 .header-container {
   display: flex; /* Allinea gli elementi in orizzontale */
   align-items: center; /* Allinea verticalmente al centro */
   background-color: white;
-  border: 0px;
+  border: 15px;
+  border-color: black;
+  border-style: solid;
   max-width: 100%;
   justify-content: center;
   height: auto;
