@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
   width: 300px;
-  height: 300px;
+  height: 350px;
   margin: 10px;
   background-color: white;
   border: 0px;
@@ -33,7 +33,15 @@ img {
   justify-content: center;
   height: auto;
 }
-
+.footer-container {
+  display: flex; /* Allinea gli elementi in orizzontale */
+  align-items: center; /* Allinea verticalmente al centro */
+  background-color: white;
+  border: 0px;
+  border-style: solid;
+  max-width: 100%;
+  justify-content: center;
+}
 .logo {
   width: 50px;
   height: 50px;
