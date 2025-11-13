@@ -19,8 +19,8 @@
   border: 0px;
 }
 img {
-  max-width: 100%;
-  height: 100%;
+  max-width: 99%;
+  height: 99%;
 }
 
 .header-container {
@@ -34,7 +34,6 @@ img {
 }
 
 .logo {
-  /* Aggiungi qui le proprietà per il logo, come larghezza e altezza */
   width: 50px;
   height: 50px;
   margin-right: 1px; /* Spazio tra logo e titolo */
