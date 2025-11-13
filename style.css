@@ -1,8 +1,8 @@
-div{
-    color: black;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 40px;
-    border: 2px solid black;
-   }
-
+div {
+  color: black;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 40px;
+  border: 2px solid black;
+  text-align: center;
+}
