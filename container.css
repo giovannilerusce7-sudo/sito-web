@@ -27,8 +27,7 @@ img {
   display: flex; /* Allinea gli elementi in orizzontale */
   align-items: center; /* Allinea verticalmente al centro */
   background-color: white;
-  border: 15px;
-  border-color: black;
+  border: 0px;
   border-style: solid;
   max-width: 100%;
   justify-content: center;

@@ -1,0 +1,52 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.bg-image {
+  /* Specifica l'immagine di sfondo */
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20250804/pngtree-football-stadium-crowd-under-dark-cloudy-sky-at-night-image_17702919.webp");
+
+  /* Applica l'effetto sfocatura */
+  filter: blur(
+    5px
+  ); /* Regola il valore in pixel per aumentare o diminuire la sfocatura */
+  -webkit-filter: blur(5px); /* Compatibilità con browser WebKit (es. Safari) */
+
+  /* Assicura che l'immagine copra l'intera area */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Posiziona l'immagine dietro il contenuto */
+  position: fixed; /* Mantiene l'immagine fissa durante lo scorrimento */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Assicura che sia dietro gli altri elementi */
+}
+
+/* Stile per il contenitore del contenuto in primo piano */
+.content {
+  background-color: rgb(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Sfondo semi-trasparente per migliorare la leggibilità */
+  color: black;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute; /* Posiziona sopra l'immagine di sfondo */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra il contenuto */
+  z-index: 2; /* Assicura che sia davanti all'immagine */
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
