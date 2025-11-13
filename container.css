@@ -3,11 +3,16 @@
   margin-bottom: 15px;
   align-items: center;
   justify-content: center;
- }
+}
 
 .box {
-  width: 200px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
   height: 200px;
-  background-color: lightblue; 
-  margin: 5px; 
+  margin: 5px;
+  display: block;
 }
